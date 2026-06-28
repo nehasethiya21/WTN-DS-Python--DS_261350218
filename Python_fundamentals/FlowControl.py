@@ -1,7 +1,6 @@
 # 1. Write a program to check if a given number is Positive, Negative, or Zero.
 
 num = int(input("Enter a number: "))
-
 if num > 0:
     print("The number is Positive")
 elif num < 0:
@@ -77,14 +76,11 @@ Input: 1234
 Output: 10'''
 
 num = int(input("Enter a number: "))
-
 sum = 0
-
 while num > 0:
     digit = num % 10
     sum = sum + digit
     num = num // 10
-
 print("Sum of digits =", sum)
 
 '''9.Write a program to reverse a given number and print it.
@@ -97,9 +93,7 @@ Input: 1004
 Output: 4001'''
 
 num = int(input("Enter a number: "))
-
 reverse = 0
-
 while num > 0:
     digit = num % 10
     reverse = reverse * 10 + digit
@@ -119,7 +113,6 @@ Input: 1234
 Output: 1234 is not a palindrome.'''
 
 num = int(input("Enter a number: "))
-
 original = num
 reverse = 0
 
